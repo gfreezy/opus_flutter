@@ -173,5 +173,5 @@ void _share(Uint8List data) async {
     name: 'output.wav',
     length: data.length,
   );
-  await Share.shareXFiles([file]);
+  await SharePlus.instance.share(ShareParams(files: [file]));
 }

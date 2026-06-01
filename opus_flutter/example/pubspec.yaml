@@ -10,7 +10,7 @@ dependencies:
   opus_dart: ^3.0.1
   flutter:
     sdk: flutter
-  share_plus: ^7.2.1
+  share_plus: ^13.1.0
   opus_flutter:
     path: ../
   cupertino_icons: ^1.0.6
@@ -20,6 +20,8 @@ dependency_overrides:
     path: ../../opus_flutter_android
   opus_flutter_ios:
     path: ../../opus_flutter_ios
+  opus_flutter_macos:
+    path: ../../opus_flutter_macos
   opus_flutter_platform_interface:
     path: ../../opus_flutter_platform_interface
   opus_flutter_web:
