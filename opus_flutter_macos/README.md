@@ -35,4 +35,8 @@ dependencies:
 
 A prebuilt macOS `opus.xcframework` is included for arm64 and x86_64.
 
+## Apple dependency manager support
+
+This package supports Swift Package Manager only. CocoaPods integration has been removed.
+
 [1]: ../opus_flutter

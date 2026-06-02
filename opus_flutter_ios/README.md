@@ -34,5 +34,9 @@ dependencies:
 ## How opus is contained in this package
 [opus_xcframework](https://github.com/EPNW/opus_xcframework) is incorporated into this plugin.
 
+## Apple dependency manager support
+
+This package supports Swift Package Manager only. CocoaPods integration has been removed.
+
 
 [1]: ../opus_flutter
